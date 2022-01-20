@@ -1,0 +1,42 @@
+#sliderBlock {
+  width: 100%;
+  
+}
+
+.imageBlock {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  background-position: top right;
+}
+
+.sliderDescBlock {
+  position: absolute;
+  top: 25%;
+  color: #fff;
+  left: 4%;
+  width: 50%;
+  padding: 10 px;
+}
+.slider_desc h2 {
+  font-size: 2.3em;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.slider_desc p {
+  padding: 20px 0;
+  font-size: 20px;
+  width: 69%;
+  line-height: 33px;
+}
+
+.slider_desc button {
+  background-color: #0f79af !important;
+  color: #fff;
+  padding: 18px;
+  width: 38%;
+  border: none;
+  font-size: 17px;
+}
+

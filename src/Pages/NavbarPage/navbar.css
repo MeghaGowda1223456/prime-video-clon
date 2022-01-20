@@ -1,0 +1,46 @@
+#navbarBlock {
+  width: 100%;
+  height: 75px;
+  background-color: #0f171e;
+  background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+  background-repeat: repeat-x;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+
+#navbarBlock article {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+}
+.menuBlock {
+  display: flex;
+  justify-content: flex-end;
+}
+.logoBlock img {
+  width: 120px;
+}
+
+.menuBlock nav ul {
+  display: flex;
+  list-style: none;
+}
+.menuBlock nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.menuBlock nav ul li:nth-child(1) a {
+  display: flex;
+  margin: 0px 5px;
+}
+
+.menuBlock nav ul li a:nth-child(1) span {
+  padding: 0px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  px;
+  text-transform: uppercase;
+}
